@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>图书展示</title>
+</head>
+<body>
+    <!-- 整个页面 -->
+    <div id="page">
+    
+        <!-- top分页面 -->
+        <div id="top">
+            <table width="100%" style="background-color: cyan">
+                <tr>
+                    <td width="85%">
+                        < img alt="logo" src="images/logo.png"/>
+                    <td/>
+                    <td>
+                        < img alt="cart" src="images/cart.gif"/>
+                        <form name="input" action="new_file" method="get">
+							Username:
+						 <input type="text" name="user">
+						 Password:<input type="password" name="pwd" />
+						 <input type="submit" value="Submit">
+						 </form>
+           
+                    <td/>
+                <tr/>
+            </table>
+        </div>
+        <div>
+            < img alt="productlist" src="images/productlist.gif" width="100%">
+        </div>
+        <!-- menu分页面 -->
+        <div id="menu">
+            <table width="100%" bgcolor="greenyellow">
+                <tr align="center">
+                    <td>
+                          <font color="#aaaa00">文学 </font></
+                        < a href="new_file - 副本 (2).html"><font color="#aaaa00">工科 </font></ 
+                        < a href="new_file - 副本.html"><font color="#aaaa00">经济</font></ 
+                    <td>
+                <tr/>    
+            </table>
+        </div>
+        
+        <!-- search分页面 -->
+        <div id="search">
+            <table width="100%" >
+                <tr align="right">
+                    <td>
+                        Search
+                        <input type="text"/>
+                        <input type="button" value="搜索"/>
+                        &nbsp;&nbsp;    
+                    <td/>
+                </tr>
+
+            </table>
+        </div>
+        <!---更多推荐--->
+		<div id="content2" style="background-color: yellow;height:1000px;width:200px;float: left;" >
+        <h1>更多推荐</h1>
+        <hr/>
+        	             <td>
+							 <div>
+        		                 < img alt="book" src="bookcover/104.jpg">
+        		             </div>
+        		             <div>
+        		                <a href="new_file.html2">
+        		                <span>xxx</span><br/>
+        		                <span>ISMB:xxx</span>
+        		                <span>作者:xxx</span>
+        		                </a>
+        		             </div>
+        		         </td><td>
+        		              <div> 
+        		                  < img alt="book" src="bookcover/104.jpg">
+        		              </div>
+        		              <div>
+        		                 <a href="new_file.html2">
+        		                 <span>xxx</span><br/>
+        		                 <span>ISMB:xxx</span>
+        		                 <span>作者:xxx</span>
+        		                 </a>
+        		              </div>
+        		          
+        </div>
+        <!-- content -->
+       <div id="content" style="height: 1000px;width: 80%;">
+            <h1>文学类</h1>
+            <hr/>
+            <div>
+                    <tr align="center">
+                       <td>
+                           <td>
+                               < img alt="book" src="bookcover/104.jpg">
+                           </div>
+                           <div>
+                              <a href="new_file.html2">
+                              <span>xxx</span><br/>
+                              <span>ISMB:xxx</span>
+                              <span>作者:xxx</span>
+                              </a>
+                           </div>
+                       </td><td>
+                            <div> 
+                                < img alt="book" src="bookcover/104.jpg">
+                            </div>
+                            <div>
+                                <a href="new_file.html2">
+                                <span>xxx</span><br/>
+                                <span>ISMB:xxx</span>
+                                <span>作者:xxx</span>
+                                </a>
+                            </div>
+                        </td>
+                       <td>
+                            <div>
+                  
+                                < img alt="book" src="bookcover/104.jpg">
+                            </div>
+                            <div>
+                                <a href="new_file.html2">
+                                <span>xxx</span><br/>
+                                <span>ISMB:xxx</span>
+                                <span>作者:xxx</span>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                      <td>
+                            <td>
+                            <div> 
+                                < img alt="book" src="bookcover/104.jpg">
+                            </div>
+                            <div>
+                               <a href="new_file.html2">
+                               <span>xxx</span><br/>
+                               <span>ISMB:xxx</span>
+                               <span>作者:xxx</span>
+                               </a>
+                            </div>
+                        </td><td>
+                            <div> 
+                                < img alt="book" src="bookcover/104.jpg">
+                            </div>
+                            <div>
+                                <a href="new_file.html2">
+                                <span>xxx</span><br/>
+                                <span>ISMB:xxx</span>
+                                <span>作者:xxx</span>
+                                </a>
+                            </div>
+                        </td><td>
+                            <div> 
+                                < img alt="book" src="bookcover/104.jpg">
+                            </div>
+                            <div>
+                                <a href="new_file.html2">
+                                <span>xxx</span><br/>
+                                <span>ISMB:xxx</span>
+                                <span>作者:xxx</span>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+            </div>    
+        </div>
+           
+        <!-- bottom -->
+        <div id="bottom">
+            <table width="100%" bgcolor="#EFEEDC">
+                <tr>
+                    <td rowspan="2">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        < img alt="logo" src="images/logo.png">
+                    </td>
+                    <td>
+                        CONTACT US
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
