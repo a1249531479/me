@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>first</title>
+</head>
+<body>
+
+   <script>
+//输出Hello javascript
+        c = "Hello javascript";
+        console.log(c);
+    </script>
+
+
+<h1>我的第一个 JavaScript 程序</h1>
+
+<script>
+//累加
+    var a=0,c=1;
+    while (a<10086)
+    {
+    c=c+a;
+    a=a+1;
+    }
+    console.log(c);
+</script>
+<table>
+<script>
+//三角形
+    function one( ) {
+        for (var i = 0, n = 5; i <= n; i++) {
+            for (var j = n - 1; j >= i; j--) {
+                document.write("&nbsp");
+            }
+            for (var k = 1; k <= 2 * i - 1; k++) {
+                document.write("*");
+            }
+            document.write("<br />")
+        }
+    }
+    console.log(one());
+</script>
+</table>
+    <div id="number_table"></div>
+    <script>
+    //九九乘法表
+        var numberTable = document.getElementById('number_table');
+        var html = '';
+        for(var i=1;i<10;i++)
+        {
+            html += '<p>';
+            for(var j=1;j<i+1;j++)
+            {
+                html += '<span>'+ i + '*' + j + '=' + i*j +'</span>&nbsp;&nbsp;';
+            }
+            html += '</p>';
+        }
+        numberTable.innerHTML = html;
+    </script>
+
+</body>
+</html>
