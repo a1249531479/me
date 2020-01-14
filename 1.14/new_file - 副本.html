@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>图书展示</title>
+</head>
+   <body> 
+    <!-- 整个页面 -->
+    <div id="page">
+        <!-- top分页面 -->
+        <div id="top">
+            <table width="100%" style="background-color: cyan" >
+                <tr>
+                    <td>
+						<td width="85%">
+						    <img alt="logo" width= "220" height="66" ="image/logo.jpg"/>
+						<td/>
+                        <form name="input" action="new_file" method="get">
+							Username:
+						 <input type="text" name="user">
+						 Password:<input type="password" name="pwd" />
+						 <input type="submit" value="Submit">
+						 </form>
+           
+                    <td/>
+                <tr/>
+            </table>
+			<!--播放器-->
+			<audio src="/new/song.mp3"  controls="controls" loop="loop" preload="auto" >
+			你的浏览器不支持video元素
+			</audio>
+        </div>
+        <!-- menu分页面 -->
+        <div id="menu">
+            <table width="100%" bgcolor="green">
+                <tr align="center">
+                    <td>
+						</
+						< a href="#"><font color="#ffffff">文学 </font></
+                        < a href="#"><font color="#ffffff">生活 </font></
+                        < a href="#"><font color="#ffffff">计算机 </font></
+                        < a href="#"><font color="#ffffff">外语 </font></
+                        < a href="#"><font color="#ffffff">经管 </font></
+                        < a href="#"><font color="#ffffff">励志 </font></
+                        < a href="#"><font color="#ffffff">社科 </font></
+                        < a href="#"><font color="#ffffff">学术 </font></
+                        < a href="#"><font color="#ffffff">艺术 </font></
+                        < a href="#"><font color="#ffffff">原版 </font></
+                        < a href="#"><font color="#ffffff">科技 </font></
+                        < a href="#"><font color="#ffffff">考试 </font></
+                        < a href="#"><font color="#ffffff">体育 </font></
+                        < a href="#"><font color="#ffffff">百科 </font></
+                <tr/>    
+            </table>
+        </div>
+         
+		
+        <!-- search分页面 -->
+        <div id="search">
+            <table width="100%" >
+                <tr align="left">
+                    <td>
+                        Search
+                        <input type="text"/>
+                        <input type="button" value="搜索"/>
+                        &nbsp;&nbsp;    
+                    <td/>
+                </tr>
+ 
+       <tr align="right">
+                  <button type="button" onclick="alert('功能完善中，即将上线')">点我注册</button>
+       </tr>
+            </table>
+        </div>
+    
+   			 
+
+        <!-- content -->
+       <div id="content" style="height: 700px;width: 80%;">
+		   <table>
+			   
+            <h1>经济类</h1>
+            <hr/>
+            <div>
+                    <tr align="center">
+                       <td>
+                           <td>
+                               <img alt="book" width= "304" height="228" src="image/3.jpg">
+                           </div>
+                           <div>
+                              <span>经济学原理</span><br/>
+                              <span>ISMB:28473199</span>
+                              <span>作者:马歇尔</span>
+                              </a>
+                           </div>
+                       </td><td>
+                            <div> 
+                                <img alt="book" width= "304" height="228" src="image/4.jpg">
+                            </div>
+                            <div>
+ 
+                                <span>国富论</span><br/>
+                                <span>ISMB:28473201</span>
+                                <span>作者:亚当*斯密等</span>
+                                </a>
+                            </div>
+                        </td>
+                       <td>
+                            <div>
+                  
+                                <img alt="book" width= "304" height="228" src="image/5.jpg">
+                            </div>
+                            <div>
+ 
+                                <span>资本论</span><br/>
+                                <span>ISMB:2847320</span>
+                                <span>作者:马克思</span>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                      <td>
+                            <td>
+                            <div> 
+                                <img alt="book" width= "304" height="228" src="image/6.jpg">
+                            </div>
+                            <div>
+                               <span>中国特色社会主义政治经济学</span><br/>
+                               <span>ISMB:9787300233666</span>
+                               <span>作者:张宇</span>
+                               </a>
+                            </div>
+                        </td><td>
+                            <div> 
+                                <img alt="book" width= "304" height="228" src="image/7.jpg">
+                            </div>
+                            <div>
+                                <span>当代马克思主义政治经济学十五讲</span><br/>
+                                <span>ISMB:9787300225692</span>
+                                <span>作者:中国人民大学</span>
+                                </a>
+                            </div>
+                        </td><td>
+                            <div> 
+                  <img alt="book" width= "304" height="228" src="image/8.jpg">
+                            </div>
+                            <div>
+                                <span>变革中国-市场经济的中国之路</span><br/>
+                                <span>ISMB:9787508635101</span>
+                                <span>作者:罗纳德.科斯,王宁</span>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+					</table>
+            </div>
+				
+        </div>
+           
+        <!-- bottom -->
+        <div id="bottom">
+            <table width="100%" bgcolor="#efefb4">
+				<!--时钟-->
+                <tr>当前时间：
+                   <hr>
+                   <div id="time">    
+                   <script>     
+                   
+                   document.getElementById('time').innerHTML=new Date().toLocaleString();     
+                   
+                   setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString();",1000);  
+                   
+                   </script>    
+                   
+                   </div>    
+                    <td>
+                        CONTACT US
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
